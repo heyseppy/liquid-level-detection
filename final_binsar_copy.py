@@ -8,6 +8,7 @@ from collections import deque
 
 
 cap = cv2.VideoCapture(1)
+#hey!
 
 while( cap.isOpened() ) :
 	ret,img = cap.read()
