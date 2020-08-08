@@ -16,47 +16,21 @@ This project was developed by [me](https://au.linkedin.com/in/sep-kimiaei-b00721
 
 ## Contributions 
 [https://github.com/iftheqhar/opencv2_python](https://github.com/iftheqhar/opencv2_python)
-
 [https://github.com/sashagaz/Hand_Detection](https://github.com/sashagaz/Hand_Detection)
-
 [https://github.com/iftheqhar/OpenCV2-Python](https://github.com/iftheqhar/OpenCV2-Python)
-
 [https://www.geeksforgeeks.org/multiple-color-detection-in-real-time-using-python-opencv/](https://www.geeksforgeeks.org/multiple-color-detection-in-real-time-using-python-opencv/)
-
 [https://www.pyimagesearch.com/2015/09/14/ball-tracking-with-opencv/](https://www.pyimagesearch.com/2015/09/14/ball-tracking-with-opencv/)
-
 [https://www.pyimagesearch.com/2018/07/30/opencv-object-tracking/](https://www.pyimagesearch.com/2018/07/30/opencv-object-tracking/)
 
-## Rename a file
+# Methodology
 
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+I practiced detecting liquid (especially transparent ones such as water) using a wide variety of avenues. This resulted in a series of vastly differing performance reports and findings. These methods included **Colour Tracking**, **Frame Change Detection**, **Gaussian Blur**, **Canny Edge Detection** and a combination of all.
 
-## Delete a file
+## Colour Tracking (with range)
 
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
+This method  involved specifying a range of values that openCV would then start tracking. This method is a commonly used one within the scope of openCV methodologies.
 
-## Export a file
-
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
-
-
-# Synchronization
-
-Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
-
-There are two types of synchronization and they can complement each other:
-
-- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
-	> To start syncing your workspace, just sign in with Google in the menu.
-
-- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
-	> Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
-
-## Open a file
-
-You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
-
-## Save a file
+## Frame Change Detection	
 
 You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
 
@@ -95,13 +69,6 @@ After publishing, StackEdit keeps your file linked to that publication which mak
 ## Manage file publication
 
 Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your file.
-
-
-# Markdown extensions
-
-StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.
-
-> **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 
 
 ## SmartyPants
