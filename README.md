@@ -16,10 +16,15 @@ This project was developed by [me](https://au.linkedin.com/in/sep-kimiaei-b00721
 
 ## Contributions 
 [https://github.com/iftheqhar/opencv2_python](https://github.com/iftheqhar/opencv2_python)
+
 [https://github.com/sashagaz/Hand_Detection](https://github.com/sashagaz/Hand_Detection)
+
 [https://github.com/iftheqhar/OpenCV2-Python](https://github.com/iftheqhar/OpenCV2-Python)
+
 [https://www.geeksforgeeks.org/multiple-color-detection-in-real-time-using-python-opencv/](https://www.geeksforgeeks.org/multiple-color-detection-in-real-time-using-python-opencv/)
+
 [https://www.pyimagesearch.com/2015/09/14/ball-tracking-with-opencv/](https://www.pyimagesearch.com/2015/09/14/ball-tracking-with-opencv/)
+
 [https://www.pyimagesearch.com/2018/07/30/opencv-object-tracking/](https://www.pyimagesearch.com/2018/07/30/opencv-object-tracking/)
 
 ## Rename a file
